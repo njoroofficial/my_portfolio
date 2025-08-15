@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <div class="min-h-screen">
+      <!--Navigation Bar-->
+      <div class="flex justify-between shadow-lg px-4 py-6 mb-10">
+        <h1 class="font-bold md:text-4xl sm:text-2xl">Moses Njoroge</h1>
+        <nav class="flex gap-6 font-semibold">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Skills</a>
+          <a href="#">Projects</a>
+          <a href="#">Testimonials</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+
+      <!--Main Webpage Section-->
+      <div class="space-y-8">
+        <!--Home page div section-->
+        <section class="flex flex-wrap justify-center">
+          <div class="max-auto max-w-4xl px-4 text-center">
+            
+            <div class="mb-8">
+              <img src="./src/assets/myself.jpg" alt="Moses Njoroge img" class="rounded-full h-50 w-50 border-4 object-cover mx-auto"/>
+            </div>
+
+            <h1 class="mb-6 text-4xl font-bold md:text-6xl">Moses Njoroge Wairimu</h1>
+            <p class="font-semibold mb-6 text-xl md:text-2xl text-slate-500">Aspiring Computer Scientist | Tech Enthusiast</p>
+            <p class="mx-auto mb-8 max-w-2xl text-lg">Dedicated Computer Science undergraduate with expertise in cybersecurity, data science, and full-stack development. Passionate about Web3, blockchain, and leveraging technology to solve real-world problems</p>
+            
+            <!--Get In Touch, Github and LinkedIn Buttons-->
+            <div class="flex flex-wrap justify-center gap-6 mb-5">
+              <button class="rounded-xl p-2 bg-black text-white hover:text-teal-400">Get In Touch</button>
+              <button class="rounded-xl p-2 bg-black text-white hover:text-teal-400">Github</button>
+              <button class="rounded-xl p-2 bg-black text-white hover:text-teal-400">LinkedIn</button>
+            </div>
+
+            <!--Communication/Contacts section div-->
+            <div class="mb-4 flex flex-wrap justify-center gap-4">
+              <p>+254 704 125 004</p>
+              <p>mosesn579@gmail.com</p>
+            </div>
+
+          </div>
+    
+        </section>
+
+        <!--About page div section-->
+        <section class="bg-gray-100 py-10">
+          <div class="container mx-auto p-4">
+
+            <div class="text-center mb-16">
+              <h2 class="text-3xl font-bold md:text-4xl mb-4">About Me</h2>
+              <p class="text-lg max-w-2xl mx-auto">Learn more about my educational background, certifications, and professional journey</p>
+            </div>
+
+            <div class="grid gap-8 md:grid-cols-2 mb-16">
+
+              <div>
+                <h3 class="text-2xl font-semibold mb-6">Professional Summary</h3>
+                <p class="mb-6">Dedicated Computer Science undergraduate with expertise in cybersecurity, data science, and full-stack development. Certified by Google and IBM in critical tech domains, and actively engaged with IEEE communities. Passionate about Web3, blockchain, and leveraging technology to solve real-world problems.</p>
+                <p>Strong foundation in programming, networking, and data analysis, coupled with a commitment to continuous learning and staying at the forefront of technological advancement.</p>
+              </div>
+
+              <div class="py-8">
+                <img src="./src/assets/modern-tech-workspace.png" alt="Modern Working space" class="rounded-lg object-cover shadow-lg h-64 w-full"/>
+              </div>
+
+            </div>
+
+            <!--About Card Content-->
+            <div class="grid md:grid-cols-3 gap-8">
+              <!--Education Card Content-->
+              <div class="p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+                <h4 class="mr-4 mb-3 font-bold">Education</h4>
+                <div class="space-y-4">
+                  <div>
+                    <h4 class="font-semibold">Bachelor of Science in Computer Science</h4>
+                    <p class="text-sm text-slate-500">Kenyatta University</p>
+                    <p class="text-sm text-slate-500">2021 - 2025 (Expected)</p>
+                  </div>
+
+                  <div>
+                    <h4 class="font-semibold">Kenya Certificate of Secondary Education</h4>
+                    <p class="text-sm text-slate-500">Njiiri School</p>
+                    <p class="text-sm text-slate-500">Grade: B+ (67 Points)</p>
+                  </div>
+
+                  <div>
+                    <h4 class="font-semibold">Kenya Certificate of Primary Education</h4>
+                    <p class="text-sm text-slate-500">Murang`a Elite Academy</p>
+                    <p class="text-sm text-slate-500">Grade: A- (380 marks)</p>
+                  </div>
+
+                </div>
+
+              </div>
+              <!--Certification Card Content-->
+              <div class="p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+                <h4 class="mr-4 mb-3 font-bold">Certification</h4>
+                <div class="space-y-4">
+                  <div>
+                    <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-black inset-ring inset-ring-gray-500/10 mb-2">Google Certified</span>
+                    <h4 class="font-semibold">Cybersecurity Specialization</h4>
+                    <ul class="text-sm space-y-1 list-disc px-6 text-slate-500">
+                      <li>Foundations of Cybersecurity</li>
+                      <li>Manage Security Risks</li>
+                      <li>Networks and Network Security</li>
+                      <li>Linux and SQL Tools</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-black inset-ring inset-ring-gray-500/10 mb-2">IBM Certified</span>
+                    <h4 class="font-semibold">Data Science Practitioner</h4>
+                    <p class="text-sm text-slate-500">Issued: Dec 2023</p>
+                  </div>
+
+                  <div>
+                    <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-black inset-ring inset-ring-gray-500/10 mb-2">Moringa School</span>
+                    <h4 class="font-semibold">Software Engineering</h4>
+                    <p class="text-sm text-slate-500">In Progress</p>
+                  </div>
+
+                </div>
+
+              </div>
+              <!--Professional Affiliations Card Content-->
+              <div class="p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+                <h4 class="mr-4 mb-3 font-bold">Professional Affiliations</h4>
+                <div class="space-y-4">
+                  <div>
+                    <h4 class="font-semibold">IEEE Student Member</h4>
+                    <p class="text-sm text-slate-500">2024</p>
+                  </div>
+
+                  <div>
+                    <h4 class="font-semibold">IEEE Computer Society</h4>
+                    <p class="text-sm text-slate-500">2024</p>
+                  </div>
+
+                  <div class="mb-10">
+                    <h4 class="font-semibold">IEEE Communication Society</h4>
+                    <p class="text-sm text-slate-500">2024</p>
+                  </div>
+
+                  <div>
+                    <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-black inset-ring inset-ring-gray-500/10 mb-2">IEEE Recognition 2024</span>
+                    <p class="text-slate-500">Acknowledged for commitment to technological advancement</p>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!--Skills Page Div Section-->
+      </div>
+
+    </div>
+  </body>
+</html>
